@@ -21206,6 +21206,10 @@ var _navegation2 = _interopRequireDefault(_navegation);
 
 var _reactRouterDom = __webpack_require__(52);
 
+var _visualizations_one = __webpack_require__(80);
+
+var _visualizations_one2 = _interopRequireDefault(_visualizations_one);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Root = function Root() {
@@ -21222,7 +21226,8 @@ var Root = function Root() {
         _react2.default.createElement(
           'div',
           null,
-          _react2.default.createElement(_navegation2.default, null)
+          _react2.default.createElement(_navegation2.default, null),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/visualizations/1', component: _visualizations_one2.default })
         )
       )
     )
@@ -25707,7 +25712,7 @@ var Navegation = function Navegation() {
       null,
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: '/projects/1' },
+        { to: '/visualizations/1' },
         _react2.default.createElement(
           'p',
           null,
@@ -25719,6 +25724,13 @@ var Navegation = function Navegation() {
 };
 
 exports.default = Navegation;
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports) {
+
+"use strict";
+throw new Error("Module build failed: SyntaxError: missing super() call in constructor\n\n\u001b[0m \u001b[90m 4 | \u001b[39m\n \u001b[90m 5 | \u001b[39m\u001b[36mclass\u001b[39m \u001b[33mVisualizationsOne\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 | \u001b[39m  constructor() {\n \u001b[90m   | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 | \u001b[39m\n \u001b[90m 8 | \u001b[39m  }\n \u001b[90m 9 | \u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);

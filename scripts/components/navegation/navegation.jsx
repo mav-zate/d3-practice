@@ -6,7 +6,7 @@ const Navegation = () => {
   return (
     <div>
       <span>
-        <Link to="/projects/1">
+        <Link to="/visualizations/1">
           <p>Link</p>
         </Link>
       </span>
